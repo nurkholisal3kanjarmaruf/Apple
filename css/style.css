@@ -1,0 +1,102 @@
+html,
+h1,
+h2,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #000000;
+  color: #f5f5f7;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+header {
+  background: #121212;
+  padding: 20px 0;
+}
+
+header ul {
+  display: flex;
+  /* padding: 0;
+  margin: 0; */
+  /* justify-content: center; */
+  justify-content: space-between;
+}
+
+header ul li {
+  display: block;
+}
+
+header ul li a {
+  color: #d0d0d0;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.container {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner {
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 56px;
+  font-weight: 600;
+  letter-spacing: -0.002em;
+  line-height: 1.07143;
+  padding-top: 47px;
+}
+
+.banner h2 {
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.009em;
+  line-height: 1.16667;
+  padding-top: 5px;
+}
+
+.banneriphone15pro {
+  padding-top: 100px;
+}
+
+.putih {
+  background: #f5f5f7;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.putih h2 {
+  color: #1d1d1f;
+}
+
+.putih .putih-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.putih .putih-menu li {
+  display: block;
+}
+
+.putih .putih-menu li a {
+  color: #2790f4;
+}
+
+.putih .banner2 {
+  padding: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  background-position: center;
+}
