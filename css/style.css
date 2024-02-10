@@ -10,7 +10,7 @@ body {
   background: #000000;
   color: #f5f5f7;
   font-size: 12px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
     "Arial", sans-serif;
@@ -18,7 +18,7 @@ body {
 
 header {
   background: #121212;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 header ul {
@@ -27,6 +27,7 @@ header ul {
   margin: 0; */
   /* justify-content: center; */
   justify-content: space-between;
+  align-items: center;
 }
 
 header ul li {
@@ -67,30 +68,40 @@ header ul li a {
 }
 
 .banneriphone15pro {
-  padding-top: 100px;
+  padding-top: 10px;
+  margin-bottom: 30px;
+  margin-left: 12px;
+  margin-right: 10px;
 }
 
 .putih {
   background: #f5f5f7;
   text-align: center;
-  padding: 50px 0;
+  padding-top: 50px;
 }
 
 .putih h2 {
   color: #1d1d1f;
 }
 
-.putih .putih-menu {
+.putih-menu {
   display: flex;
   justify-content: center;
+  padding: 30px 0;
 }
 
-.putih .putih-menu li {
+.putih-menu li {
   display: block;
 }
 
-.putih .putih-menu li a {
+.putih-menu li a {
   color: #2790f4;
+  font-size: 21px;
+  display: inline-block;
+  letter-spacing: 0.011em;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .putih .banner2 {
@@ -99,4 +110,9 @@ header ul li a {
   display: flex;
   justify-content: center;
   background-position: center;
+  align-items: center;
+}
+
+.putih .h2-ip15 {
+  font-size: 50px;
 }
