@@ -62,21 +62,21 @@ header ul li a {
   color: #0964c3;
 }
 
-.banner {
+.section-1 {
   text-align: center;
-  background-image: url("../images/banner/iphone-15-pro.png");
+  background-image: url("../images/banner/iphone-15-proo.png");
   background-position: center;
-  height: 600px;
+  height: 500px;
   margin-bottom: 10px;
 }
 
-.banner h1 {
+.section-1 h1 {
   font-size: 50px;
   color: #f5f5f7;
   padding-top: 50px;
 }
 
-.banner h2 {
+.section-1 h2 {
   color: #f5f5f7;
   font-size: 25px;
   font-weight: 300;
@@ -100,20 +100,32 @@ header ul li a {
   font-size: 16px;
 }
 
-.section-baru {
+.section-2 {
   background-image: url("../images/banner/iphone-15.png");
   background-position: center;
   background-repeat: no-repeat;
   padding: 0;
   text-align: center;
   height: 500px;
+  padding-bottom: 10px;
+  margin-bottom: 12px;
 }
 
-.section-baru h2 {
+.section-2 h2 {
   color: black;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
-.section-baru .h2-ip15 {
+.section-2 .judul-2 {
   font-size: 50px;
+}
+
+.section-3 {
+  background-color: black;
+  object-fit: cover;
+  text-align: center;
+  background-position: center;
+  height: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
