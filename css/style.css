@@ -103,7 +103,8 @@ header ul li a {
 .section-baru {
   background-image: url("../images/banner/iphone-15.png");
   background-position: center;
-  padding: 50px 0;
+  background-repeat: no-repeat;
+  padding: 10px 0;
   text-align: center;
   height: 500px;
 }
@@ -111,4 +112,8 @@ header ul li a {
 .section-baru h2 {
   color: black;
   margin-bottom: 15px;
+}
+
+.section-baru .h2-ip15 {
+  font-size: 50px;
 }
