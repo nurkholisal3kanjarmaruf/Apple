@@ -1,7 +1,8 @@
 html,
 h1,
 h2,
-ul {
+ul,
+figure {
   margin: 0;
   padding: 0;
 }
@@ -136,4 +137,57 @@ header ul li a {
   height: 85vh;
   overflow: hidden;
   object-fit: cover;
+  position: relative;
 }
+
+.section-4 {
+  display: flex;
+}
+
+.section-4 .item {
+  text-align: center;
+  width: 50%;
+  height: 550px;
+  position: relative;
+  background: tomato;
+  overflow: hidden;
+}
+
+.section-4 .item .image-wrapper {
+  position: absolute;
+  top: 0;
+  left: calc(50% + 0px);
+  z-index: 1;
+  right: auto;
+  bottom: 0;
+  transform: translate(-50%);
+}
+
+.section-4 .item .image-wrapper .image {
+  background-image: url("../images/tiles/promo_airpods_medium.jpg");
+  background-repeat: no-repeat;
+  background-size: 1262px 580px;
+  width: 1262px;
+  height: 580px;
+}
+
+.section-4 .item .title {
+  position: relative;
+  z-index: 2;
+  padding-top: 50px;
+  color: #000;
+}
+.section-4 .item .title h2 {
+  font-weight: 500;
+  line-height: 40px;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+/* .section-3-text {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+} */
