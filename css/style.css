@@ -148,10 +148,9 @@ header ul li a {
 .section-4 .item {
   text-align: center;
   width: 50%;
-  /* height: 550px; */
-  position: relative;
   height: 550px;
-  background: tomato;
+  position: relative;
+  /* background: tomato; */
   overflow: hidden;
 }
 
@@ -168,39 +167,39 @@ header ul li a {
 .section-4 .item .image-wrapper .image-1 {
   background-image: url("../images/tiles/promo_airpods_medium.jpg");
   background-repeat: no-repeat;
-  background-size: 1262px 580px;
-  width: 1262px;
-  height: 580px;
-  /* background-size: cover; */
-  object-fit: coe;
+  /* background-size: 1262px 580px; */
+  width: 580px;
+  height: 550px;
+  background-size: cover;
 }
 
 .section-4 .item .image-wrapper .image-2 {
   background-image: url("../images/tiles/tile-watch-ultra.jpg");
   background-repeat: no-repeat;
-  background-size: 1262px 580px;
-  width: 1262px;
-  height: 580px;
-  /* background-size: cover; */
+  /* background-size: 1262px 580px; */
+  /* width: 1262px;
+  height: 580px; */
+  margin-top: 135px;
+  width: 605px;
+  height: 400px;
+  background-size: cover;
 }
 
 .section-4 .item .image-wrapper .image-3 {
   background-image: url("../images/tiles/tiles-dark.jpg");
   background-repeat: no-repeat;
-  background-size: 1262px 580px;
-  width: 1262px;
-  height: 580px;
-  /* background-size: cover; */
+  width: 529px;
+  height: 559px;
+  background-size: cover;
 }
 
 .section-4 .item .image-wrapper .image-4 {
   background-image: url("../images/tiles/tile_homepod_mini.jpg");
   background-repeat: no-repeat;
-  background-size: 1262px 580px;
-  width: 1262px;
+  width: 625px;
   height: 580px;
   padding-bottom: 0;
-  /* background-size: cover; */
+  background-size: cover;
 }
 
 .section-4 .item .title {
