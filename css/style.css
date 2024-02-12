@@ -171,7 +171,8 @@ header ul li a {
   background-size: 1262px 580px;
   width: 1262px;
   height: 580px;
-  background-size: cover;
+  /* background-size: cover; */
+  object-fit: coe;
 }
 
 .section-4 .item .image-wrapper .image-2 {
@@ -184,7 +185,7 @@ header ul li a {
 }
 
 .section-4 .item .image-wrapper .image-3 {
-  background-image: url("../images/tiles/tile_applecard.jpg");
+  background-image: url("../images/tiles/tiles-dark.jpg");
   background-repeat: no-repeat;
   background-size: 1262px 580px;
   width: 1262px;
@@ -198,6 +199,7 @@ header ul li a {
   background-size: 1262px 580px;
   width: 1262px;
   height: 580px;
+  padding-bottom: 0;
   /* background-size: cover; */
 }
 
@@ -212,6 +214,13 @@ header ul li a {
   line-height: 40px;
   font-size: 35px;
   margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(41, 14, 5);
+  color: white;
 }
 /* .section-3-text {
   position: fixed;
